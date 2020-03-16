@@ -2,38 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="8924" started-at="2020-03-16T06:45:54Z" finished-at="2020-03-16T06:46:02Z">
+  <suite name="Suite" duration-ms="10304" started-at="2020-03-16T12:20:50Z" finished-at="2020-03-16T12:21:00Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="8924" started-at="2020-03-16T06:45:54Z" finished-at="2020-03-16T06:46:02Z">
+    <test name="Test" duration-ms="10304" started-at="2020-03-16T12:20:50Z" finished-at="2020-03-16T12:21:00Z">
       <class name="com.niyo.mobiles.test.testclass">
-        <test-method status="PASS" signature="initDriverBaseSetup()[pri:0, instance:com.niyo.mobiles.test.testclass@27efef64]" name="initDriverBaseSetup" is-config="true" duration-ms="8363" started-at="2020-03-16T06:45:54Z" finished-at="2020-03-16T06:46:02Z">
+        <test-method status="PASS" signature="createAndroidDriver()[pri:0, instance:com.niyo.mobiles.test.testclass@68c4039c]" name="createAndroidDriver" is-config="true" duration-ms="9661" started-at="2020-03-16T12:20:50Z" finished-at="2020-03-16T12:20:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initDriverBaseSetup -->
-        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.niyo.mobiles.test.testclass@27efef64]" name="setUp" is-config="true" duration-ms="175" started-at="2020-03-16T06:46:02Z" finished-at="2020-03-16T06:46:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@48b67364]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.niyo.mobiles.test.testclass@27efef64]" name="setUp" is-config="true" duration-ms="21" started-at="2020-03-16T06:46:02Z" finished-at="2020-03-16T06:46:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@48b67364]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifystatictextOnHomepage()[pri:0, instance:com.niyo.mobiles.test.testclass@27efef64]" name="verifystatictextOnHomepage" duration-ms="354" started-at="2020-03-16T06:46:02Z" finished-at="2020-03-16T06:46:02Z">
+        </test-method> <!-- createAndroidDriver -->
+        <test-method status="PASS" signature="verifystatictextOnHomepage()[pri:0, instance:com.niyo.mobiles.test.testclass@68c4039c]" name="verifystatictextOnHomepage" duration-ms="628" started-at="2020-03-16T12:20:59Z" finished-at="2020-03-16T12:21:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifystatictextOnHomepage -->

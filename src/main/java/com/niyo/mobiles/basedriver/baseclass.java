@@ -20,15 +20,14 @@ import io.appium.java_client.remote.MobileCapabilityType;
 
 public class baseclass {
 	
-public RemoteWebDriver  driver=null;
+public RemoteWebDriver  driver;
 
 
-
-@BeforeClass
-public void initDriverBaseSetup()
+public baseclass()
 {
-	createAndroidDriver();
+	driver=createAndroidDriver();
 }
+
 
 
 

@@ -25,7 +25,7 @@ public class methodclass  {
 	
 	
 	
-	;
+	
 	
 	public methodclass(RemoteWebDriver driver) {
 		
