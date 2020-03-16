@@ -39,13 +39,11 @@ public void initDriverBaseSetup()
 		capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "emulator-5554");
 		capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "10.0");
 		capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,"Appium");
-		
-	
 		capabilities.setCapability(MobileCapabilityType.APP, "resources/app-debug.apk");
 		
 
 			try {
-				driver = new AndroidDriver<WebElement>(new URL("http://127.0.0.1:4724/wd/hub"), capabilities);
+				driver = new AndroidDriver<WebElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 			} catch (MalformedURLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
