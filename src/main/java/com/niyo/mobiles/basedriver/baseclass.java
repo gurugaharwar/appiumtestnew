@@ -36,7 +36,7 @@ public void initDriverBaseSetup()
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 
 		capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-		capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "emulator-5554");
+		capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "emulator");
 		capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "10.0");
 		capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,"Appium");
 		capabilities.setCapability(MobileCapabilityType.APP, "resources/app-debug.apk");
