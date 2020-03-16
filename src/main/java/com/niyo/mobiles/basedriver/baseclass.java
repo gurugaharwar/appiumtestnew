@@ -41,7 +41,7 @@ public void initDriverBaseSetup()
 		capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,"Appium");
 		
 	
-		capabilities.setCapability(MobileCapabilityType.APP, "/Users/atulsingh/Documents/app-debug.apk");
+		capabilities.setCapability(MobileCapabilityType.APP, "resources/app-debug.apk");
 		
 
 			try {
