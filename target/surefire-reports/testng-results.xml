@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="12568" started-at="2020-03-17T15:06:36Z" finished-at="2020-03-17T15:06:49Z">
+  <suite name="Suite" duration-ms="9923" started-at="2020-03-17T15:13:37Z" finished-at="2020-03-17T15:13:47Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="12568" started-at="2020-03-17T15:06:36Z" finished-at="2020-03-17T15:06:49Z">
+    <test name="Test" duration-ms="9923" started-at="2020-03-17T15:13:37Z" finished-at="2020-03-17T15:13:47Z">
       <class name="com.niyo.mobiles.test.testclass">
-        <test-method status="PASS" signature="createAndroidDriver()[pri:0, instance:com.niyo.mobiles.test.testclass@68c4039c]" name="createAndroidDriver" is-config="true" duration-ms="11923" started-at="2020-03-17T15:06:36Z" finished-at="2020-03-17T15:06:48Z">
+        <test-method status="PASS" signature="createAndroidDriver()[pri:0, instance:com.niyo.mobiles.test.testclass@68c4039c]" name="createAndroidDriver" is-config="true" duration-ms="9230" started-at="2020-03-17T15:13:37Z" finished-at="2020-03-17T15:13:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAndroidDriver -->
-        <test-method status="PASS" signature="verifystatictextOnHomepage()[pri:0, instance:com.niyo.mobiles.test.testclass@68c4039c]" name="verifystatictextOnHomepage" duration-ms="634" started-at="2020-03-17T15:06:48Z" finished-at="2020-03-17T15:06:49Z">
+        <test-method status="PASS" signature="verifystatictextOnHomepage()[pri:0, instance:com.niyo.mobiles.test.testclass@68c4039c]" name="verifystatictextOnHomepage" duration-ms="680" started-at="2020-03-17T15:13:46Z" finished-at="2020-03-17T15:13:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifystatictextOnHomepage -->
