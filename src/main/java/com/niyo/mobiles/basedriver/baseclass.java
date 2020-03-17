@@ -23,11 +23,6 @@ public class baseclass {
 public RemoteWebDriver  driver;
 
 
-public baseclass()
-{
-	driver=createAndroidDriver();
-}
-
 
 
 

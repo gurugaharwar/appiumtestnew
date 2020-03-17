@@ -2,6 +2,10 @@ package com.niyo.mobiles.test;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+
+import com.niyo.mobiles.method.methodclass;
+
+import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
@@ -17,8 +21,6 @@ import org.testng.ITestContext;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.niyo.mobiles.basedriver.baseclass;
-import com.niyo.mobiles.method.methodclass;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
@@ -51,7 +53,7 @@ public class testclass  {
 		
 
 			try {
-				driver = new AndroidDriver<WebElement>(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);
+				driver = new AndroidDriver<WebElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 			} catch (MalformedURLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -68,12 +70,10 @@ public class testclass  {
 	@Test
 	public void verifystatictextOnHomepage()
 	{
+		methodclass obj=new methodclass(driver);
 		
-		
-		methodclass methodcalassobj = new methodclass(driver);
-		
-		methodcalassobj.verifyMenuText();
-		methodcalassobj.verifyTextOnHomePage();
+		obj.verifyMenuText();
+		obj.verifyTextOnHomePage();
 		
 		
 		
