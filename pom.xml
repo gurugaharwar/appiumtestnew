@@ -97,8 +97,8 @@
 				<version>3.2</version> <!-- or whatever current version -->
 				
 				<configuration>
-					<source>13.0.2</source>
-					<target>13.0.2</target>
+					<source>1.8.0</source>
+					<target>1.8.0</target>
 					
 				</configuration>
 			</plugin>
