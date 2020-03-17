@@ -48,7 +48,7 @@ public class testclass  {
 		capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
 		capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "emulator-5554");
 		capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "10.0");
-		capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,"Appium");
+		capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,"uiautomator2");
 		capabilities.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
 		
 
