@@ -44,8 +44,6 @@ public RemoteWebDriver  driver;
 			}
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-		
-
 		return driver;
 
 	}
